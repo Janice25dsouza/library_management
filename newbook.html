@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>LIBb</h1>
+                <a href="index.html">home</a>
+                <a href="login.html">user login</a>
+                <a href="adminlogin.html">admin login</a>
+            </nav>
+        </header>
+        <form>
+            <div>
+                <label for="authorName">author</label>
+                <input type="text" id="authorName" name="authorName" required>
+            </div>
+            <div>
+                <label for="bookName">bookname</label>
+                <input type="text" id="bookName" name="bookName" required>
+            </div>
+            <!--add function to check for a book and if it exists-->
+            <!--function that updates the quantity of the book-->
+            <div>
+                <label for="image">image</label>
+                <input type="file" id="image" name="image" required>
+            </div>
+            <button>update</button>
+        </form>
+    </body>
+</html>
