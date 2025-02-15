@@ -1,0 +1,1 @@
+//js for the website(fetvhing data, handling dom events)
