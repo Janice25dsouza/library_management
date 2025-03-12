@@ -17,7 +17,6 @@
         <div class="nav-center">
           <!-- nav header -->
           <div class="nav-header">
-            <p>SEARCH BOX</p>
             <button class="nav-toggle">
               <i class="fas fa-bars"></i>
             </button>
@@ -27,9 +26,11 @@
             <li>
               <a href="index.html">home</a>
             </li>
-            
             <li>
-              <button>login</button>
+              <button id="openModal">login</button>
+            </li>
+            <li>
+              <button id="openModal2">sign up</button>
             </li>
           </ul>
           <!-- social media -->
@@ -48,6 +49,36 @@
         </div>
       </nav>
     </header>
+
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" required>
+          <label for="password">Password:</label>
+          <input type="text" id="password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="signUpModal" class="modal2">
+      <div class="modal-content2">
+        <span class="close2">&times;</span>
+        <h2>Login</h2>
+        <form id="signUpForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" required>
+          <label for="password">Password:</label>
+          <input type="text" id="password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    
     
     <!-- javascript -->
     <script src="header.js"></script>
